@@ -6,6 +6,10 @@
 
  ![](POOB-TEST-FIRST-SABANA-RESEARCH-1.4.11/img/Memoria.png)
 
+ ## Diagrama UML
+
+ ![](POOB-TEST-FIRST-SABANA-RESEARCH-1.4.11/img/UML.png)
+
  ### Conceptos
 
  ¿Qué es encapsulamiento? ¿Qué ventajas ofrece?

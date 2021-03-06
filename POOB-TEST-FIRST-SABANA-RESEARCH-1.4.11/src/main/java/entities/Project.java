@@ -3,6 +3,7 @@ package entities;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.time.LocalDate.*;
 
 public class Project {
 
@@ -11,6 +12,7 @@ public class Project {
     private LocalDate dateEnd;
     private Group group;
     private List<Iteration> iterations;
+
 
     public Project(String name, LocalDate dateInit, LocalDate dateEnd, Group group) {
         this.name = name;
@@ -21,10 +23,10 @@ public class Project {
 
         group.addProject(this);
     }
-
     public void addIteration(Iteration iteration) {
         this.iterations.add(iteration);
     }
+
 
     public void setDateInit(LocalDate dateInit) {
         this.dateInit = dateInit;
@@ -40,7 +42,21 @@ public class Project {
      * @return false if the project has open activities or the dateEnd is before than the system date.
      */
     public boolean isActive() {
-        return false;
+
+        boolean active = false;
+
+        if(LocalDate.now().isBefore(dateInit) || LocalDate.now().isEqual(dateInit) && LocalDate.now().isAfter(dateEnd) || LocalDate.now().isEqual(dateEnd))
+        {
+            for(Iteration i: this.iterations)
+            {
+                if(i.CountOpenActivities() > 0)
+                {
+                    active = true;
+                }
+
+            }
+        }
+        return active;
     }
 
 

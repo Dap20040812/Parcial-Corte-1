@@ -1,5 +1,7 @@
 package entities;
 
+import java.time.LocalDate;
+
 public class Activity {
 
     public static final String ACTIVE_STATE = "active";
@@ -25,7 +27,14 @@ public class Activity {
      * @return true if the activity is in state pending or active, otherwise return false.
      */
     public boolean isActive() {
-        return false;
+
+        boolean active = false;
+
+        if(this.state == ACTIVE_STATE)
+        {
+            active = true;
+        }
+        return active;
     }
 
 }

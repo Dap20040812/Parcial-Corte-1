@@ -45,12 +45,12 @@ public class Project {
 
         boolean active = false;
 
-        if(LocalDate.now().isBefore(this.dateInit) || LocalDate.now().isEqual(this.dateInit) && LocalDate.now().isAfter(this.dateEnd) || LocalDate.now().isEqual(this.dateEnd))
+        if(LocalDate.now().isBefore(this.dateEnd) || LocalDate.now().isEqual(this.dateEnd) && LocalDate.now().isAfter(this.dateInit) || LocalDate.now().isEqual(this.dateInit))
         {
             for(Iteration i: this.iterations)
             {
                 int a=0;
-                a=i.CountOpenActivities();
+                a+=i.CountOpenActivities();
                 if(a > 0)
                 {
                     active = true;

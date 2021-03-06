@@ -22,6 +22,11 @@ public class SabanaResearch {
         return this.summaries.size();
     }
 
+    /**
+     * Agregra un resumen a la lista
+     * @param summary
+     */
+
     public void addSummary(Summary summary){this.summaries.add(summary);}
 
     /**

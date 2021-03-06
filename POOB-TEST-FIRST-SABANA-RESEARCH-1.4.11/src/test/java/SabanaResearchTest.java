@@ -33,7 +33,7 @@ public class SabanaResearchTest {
 
         // Create projects
         projects.add(new Project("COVID 19 Vaccine", LocalDate.now().minusDays(10), LocalDate.now().plusDays(10), groups.get(0))); // OPEN date but with all the activities CLOSED
-        projects.add(new Project("Amazing Masks", LocalDate.now().plusDays(1), LocalDate.now().plusDays(10), groups.get(0))); // OPEN date but with all the activities OPENED
+        projects.add(new Project("Amazing Masks", LocalDate.now().minusDays(1), LocalDate.now().plusDays(10), groups.get(0))); // OPEN date but with all the activities OPENED
         projects.add(new Project("New Economic Model", LocalDate.now().minusDays(10), LocalDate.now().minusDays(1), groups.get(1))); // CLOSED date
 
         // Create iterations
@@ -75,13 +75,13 @@ public class SabanaResearchTest {
     @Test
     @DisplayName("GIVEN sabana research WHEN open a project by dates and create summary THEN a new summary is created")
     public void shouldCreateSummaryForOpenProjects() {
-        this.projects.get(2).setDateInit(LocalDate.now().minusDays(1));
+        this.projects.get(2).setDateEnd(LocalDate.now().plusDays(1));
 
         Summary summary = sabanaResearch.createSummaryEntry();
 
         assertNotNull(summary, "The summary should be created.");
         assertNotNull(summary.getDate(), "Validate summary date.");
-        assertEquals(summary.getActiveProjects(), 1, "Validate number of active projects");
+        assertEquals(summary.getActiveProjects(), 2, "Validate number of active projects");
         assertEquals(sabanaResearch.countOfSummaries(), 1, "The default count of summaries");
     }
 

@@ -75,12 +75,13 @@ public class SabanaResearchTest {
     @Test
     @DisplayName("GIVEN sabana research WHEN open a project by dates and create summary THEN a new summary is created")
     public void shouldCreateSummaryForOpenProjects() {
-        this.projects.get(2).setDateEnd(LocalDate.now().plusDays(1));
+        this.projects.get(2).setDateInit(LocalDate.now().minusDays(1));
+
         Summary summary = sabanaResearch.createSummaryEntry();
 
         assertNotNull(summary, "The summary should be created.");
         assertNotNull(summary.getDate(), "Validate summary date.");
-        assertEquals(summary.getActiveProjects(), 2, "Validate number of active projects");
+        assertEquals(summary.getActiveProjects(), 1, "Validate number of active projects");
         assertEquals(sabanaResearch.countOfSummaries(), 1, "The default count of summaries");
     }
 

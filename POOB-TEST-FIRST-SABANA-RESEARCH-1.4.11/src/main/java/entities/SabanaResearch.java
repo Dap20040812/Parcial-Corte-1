@@ -35,7 +35,7 @@ public class SabanaResearch {
 
         for(Group g: this.groups)
         {
-            ap=ap+g.countActiveProjects();
+            ap+=g.countActiveProjects();
         }
         Summary s = new Summary(ap,LocalDate.now());
         addSummary(s);

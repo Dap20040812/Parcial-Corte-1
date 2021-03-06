@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SabanaResearchTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-03-06T00:55:39" hostname="LAPTOP-UU1M9U8A" time="0.12">
+<testsuite name="SabanaResearchTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-03-06T01:10:37" hostname="LAPTOP-UU1M9U8A" time="0.083">
   <properties/>
-  <testcase name="shouldCreateSummaryForOpenProjects()" classname="SabanaResearchTest" time="0.12">
+  <testcase name="shouldCreateSummaryForOpenProjects()" classname="SabanaResearchTest" time="0.083">
     <failure message="org.opentest4j.AssertionFailedError: Validate number of active projects ==&gt; expected: &lt;1&gt; but was: &lt;2&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Validate number of active projects ==&gt; expected: &lt;1&gt; but was: &lt;2&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)

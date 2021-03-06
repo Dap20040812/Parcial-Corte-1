@@ -30,7 +30,7 @@ public class Activity {
 
         boolean active = false;
 
-        if(this.state == ACTIVE_STATE)
+        if(this.state == ACTIVE_STATE || this.state == PENDING_STATE)
         {
             active = true;
         }

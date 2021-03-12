@@ -17,15 +17,38 @@ public class Iteration {
         project.addIteration(this);
     }
 
+
     public void addActivity(Activity activity) {
         this.activities.add(activity);
     }
+
+    /**
+     * Devuelve el numero de planes cerrados
+     * @return d
+     */
     public int CountOpenActivities()
     {
         int d=0;
         for (Activity a: this.activities)
         {
             if(a.isActive())
+            {
+                d++;
+            }
+        }
+
+        return d;
+    }
+    /**
+     * Devuelve el numero de planes cerrados
+     * @return d
+     */
+    public int CountClosedActivities()
+    {
+        int d=0;
+        for (Activity a: this.activities)
+        {
+            if(!a.isActive())
             {
                 d++;
             }

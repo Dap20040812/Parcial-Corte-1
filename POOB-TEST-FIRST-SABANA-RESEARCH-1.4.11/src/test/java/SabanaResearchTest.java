@@ -84,5 +84,17 @@ public class SabanaResearchTest {
         assertEquals(summary.getActiveProjects(), 2, "Validate number of active projects");
         assertEquals(sabanaResearch.countOfSummaries(), 1, "The default count of summaries");
     }
+    @Test
+    public void shouldCountClosedActivities() {
+
+        Summary summary = sabanaResearch.createSummaryEntry();
+        assertEquals(summary.getClosedActivities(), 5, "The default count of summaries");
+    }
+    @Test
+    public void shouldCountOpenActivities() {
+
+        Summary summary = sabanaResearch.createSummaryEntry();
+        assertEquals(summary.getOpenActivities(), 2, "The default count of summaries");
+    }
 
 }

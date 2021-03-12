@@ -36,14 +36,18 @@ public class SabanaResearch {
      * @return The new Summary entry.
      */
     public Summary createSummaryEntry() {
-        int ap=0;
+        int ap=0,op=0,cp=0;
+
 
         for(Group g: this.groups)
         {
             ap+=g.countActiveProjects();
+            op += g.CountOpenActivities();
+            cp += g.CountClosedActivities();
         }
-        Summary s = new Summary(ap,LocalDate.now());
+        Summary s = new Summary(ap,LocalDate.now(),op,cp);
         addSummary(s);
         return s;
     }
+
 }

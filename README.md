@@ -10,6 +10,9 @@
 
  ![](POOB-TEST-FIRST-SABANA-RESEARCH-1.4.11/img/UML.png)
 
+ ## Diseño
+ ![](POOB-TEST-FIRST-SABANA-RESEARCH-1.4.11/img/Diseño.png)
+
  ### Conceptos
 
  ¿Qué es encapsulamiento? ¿Qué ventajas ofrece?

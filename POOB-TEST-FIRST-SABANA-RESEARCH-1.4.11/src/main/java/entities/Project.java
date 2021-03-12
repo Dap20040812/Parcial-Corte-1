@@ -49,7 +49,7 @@ public class Project {
         {
             for(Iteration i: this.iterations)
             {
-                int a=0;
+                int a= 0;
                 a+=i.CountOpenActivities();
                 if(a > 0)
                 {
@@ -59,6 +59,34 @@ public class Project {
             }
         }
         return active;
+    }
+    /**
+     * Devuelve el numero de planes cerrados
+     * @return d
+     */
+    public int CountOpenActivities()
+    {
+        int d=0;
+        for (Iteration a: this.iterations)
+        {
+            d+=a.CountOpenActivities();
+        }
+
+        return d;
+    }
+    /**
+     * Devuelve el numero de planes cerrados
+     * @return d
+     */
+    public int CountClosedActivities()
+    {
+        int d=0;
+        for (Iteration a: this.iterations)
+        {
+            d+=a.CountClosedActivities();
+        }
+
+        return d;
     }
 
 

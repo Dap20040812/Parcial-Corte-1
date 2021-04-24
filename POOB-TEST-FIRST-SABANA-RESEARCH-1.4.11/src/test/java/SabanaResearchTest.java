@@ -11,7 +11,7 @@ import java.util.Random;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class SabanaResearchTest {
+public class   SabanaResearchTest {
 
     private SabanaResearch sabanaResearch;
     private List<Group> groups;

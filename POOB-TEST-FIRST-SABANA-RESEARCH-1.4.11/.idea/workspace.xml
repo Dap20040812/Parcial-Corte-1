@@ -23,12 +23,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea410d69-4ea1-4ead-8594-2dabcc1970ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SystetizeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Iteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Iteration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/SabanaResearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/SabanaResearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Summary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Summary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/entities/Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/entities/Activity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/entities/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/entities/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/entities/Iteration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/entities/Iteration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/entities/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/entities/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/entities/SabanaResearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/entities/SabanaResearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/entities/Summary.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/entities/Summary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/SabanaResearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/SabanaResearchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/SabanaResearchTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/SabanaResearchTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-SabanaResearchTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-SabanaResearchTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SabanaResearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SabanaResearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +60,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -60,7 +88,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Pre-Pacial primer corte" />
   </component>
-  <component name="RunManager" selected="Gradle.SabanaResearchTest.shouldCreateSummaryForOpenProjects">
+  <component name="RunManager" selected="Gradle.SabanaResearchTest">
     <configuration name="SabanaResearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -120,9 +148,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SabanaResearchTest" />
         <item itemvalue="Gradle.SabanaResearchTest.shouldCreateSummaryForOpenProjects" />
         <item itemvalue="Gradle.SabanaResearchTest.shouldCreateSummary" />
-        <item itemvalue="Gradle.SabanaResearchTest" />
       </list>
     </recent_temporary>
   </component>
